@@ -10,11 +10,11 @@
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@souravkl11/Raganork-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTtmodz%2FQueen-Cutie)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTtmodz%2FQueen-Cutie1&template=https%3A%2F%2Fgithub.com%2FTtmodz%2FQueen-Cutie)
      
 
 ## <u> VISIT OFFICIAL WEBSITE  <u>
 
-<a href="https://bit.ly/raganork"><img src="https://i0.wp.com/www.printinlondon.co.uk/blog/wp-content/uploads/2017/07/visit-website-button.png?ssl=1" alt="Join our group" height="50" width="150" border="0"></a>
+<a href="https://bit.ly/raganork"><img src="https://wa.me/+94712564306" alt="Join our group" height="50" width="150" border="0"></a>
   
 
