@@ -1,0 +1,28 @@
+{
+  "name": "Queen-Cutie",
+  "version": "3.0.2v",
+  "description": "Queen-Cutie Bot project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./Queen-Cutie/bot.js",
+  "scripts": {
+    "start": "supervisor -s bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ttmodz/Queen-Cutie.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "Thesandu Thewsara",
+  "developer": "Queen-Cutie",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ttmodz/Queen-Cutie/issues"
+  },
+  "homepage": "https://github.com/Ttmodz/Queen-Cutie#readme",
+  "dependencies": {
+    "Queen-Cutie-public-2":"1.0.1",
+    "Queen-Cutie-img": "1.0.0",
+    "Queen-Cutie-textlogo-1.0.3": "1.0.3"
+  }
+}
