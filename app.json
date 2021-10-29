@@ -1,15 +1,15 @@
 {
     "name": "QUEENCUTIE",
-    "description": "QUEENCUTIE bot - Edited from Whatsasena public.  Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "description": "QUEENCUTIE bot - Makes easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://github.com/Ttmodz/Queen-Cutie/raw/main/NL.png",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/Ttmodz/Queen-Cutie",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "website":   "https://github.com/Ttmodz/Queen-Cutie",
+    "success_url": "https://wa.me/+94712564306",
     "stack": "container",
     "env": {
         "QUEENCUTIE_CODE": {
-            "description": "QUEENCUTIE code (QR scan cheythappo kittiya code). Type here yours QUEENCUTIE code.",
+            "description": "QUEENCUTIE code (QR scan කරලා ගත්ත code එක මෙතනට paste කරන්න). Type here yours QUEENCUTIE code.",
             "required": true
         },
         "SUDO": {
@@ -29,12 +29,12 @@
         "ALL_IMG": {
             "description": "Paste your bot logo here.",
             "required": true,
-            "value": "https://www.linkpicture.com/q/rgnk.jpg"
+            "value": "https://i.ibb.co/fkxKnS2/NL.jpg"
         },
         "ALL_CAPTION": {
             "description": "Give your caption here. Example: Made by QUEENCUTIE.",
             "required": true,
-            "value": "YOUR CAPTION HERE"
+            "value": "TYPE YOUR CAPTION HERE"
         },
         "VERIFIED": {
             "description": "Jid given above the verified tick. Use 0 for official WhatsApp",
@@ -96,7 +96,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "QUEENCUTIE bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "QUEENCUTIE Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -151,7 +151,7 @@
         "GAN_IMAGE": {
             "description": "Type image link for Gan Style plugin.",
             "required": true,
-            "value": "https://i.hizliresim.com/loUtAb.jpg"
+            "value": "https://i.ibb.co/fkxKnS2/NL.jpg"
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
