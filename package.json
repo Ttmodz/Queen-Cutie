@@ -1,7 +1,7 @@
 {
   "name": "Queen-Cutie",
   "version": "1.0.0",
-  "description": "Queen Cutie is the Modified Version of WhatsAsena, Made By @ThesanduThewsara with Baileys.",
+  "description": "Queen Cutie whatsapp bot is make fun to use whatsapp, Made By @ThesanduThewsara with Baileys.",
   "main": "./Queen-Cutie/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
