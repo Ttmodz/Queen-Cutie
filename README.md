@@ -8,7 +8,7 @@
 
   # <u> SETUP <u>
   
-[![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@souravkl11/Raganork-QR)
+[![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@Ttmodz/QueenCutie?v=1)
 
 [![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTtmodz%2FQueen-Cutie1&template=https%3A%2F%2Fgithub.com%2FTtmodz%2FQueen-Cutie)
      
