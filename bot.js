@@ -19,7 +19,7 @@ const axios = require('axios');
 const got = require('got');
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
+const WhatsAsenaDB = config.DATABASE.define('Queen-Cutie', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -38,7 +38,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
 
 const plugindb = require('./plugins/sql/plugin');
 
-// Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
+// YalnÄ±zca bir kolaylÄ±k. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
     var i = 0, args = arguments;
     return this.replace(/{}/g, function () {
@@ -85,7 +85,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('�? Login information updated!')
+            chalk.blueBright.italic('âœ? Login information updated!')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -100,17 +100,17 @@ async function whatsAsena () {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
+${chalk.blue.italic('â„¹ï¸ Connecting to WhatsApp...')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('�? Login successful!')
+            chalk.green.bold('âœ? Login successful!')
         );
 
         console.log(
-            chalk.blueBright.italic('⬇️ Installing external plugins...')
+            chalk.blueBright.italic('â¬‡ï¸ Installing external plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -126,7 +126,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('⬇️Installing plugins...')
+            chalk.blueBright.italic('â¬‡ï¸Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -136,7 +136,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('�? QueenCutie working!')
+            chalk.green.bold('âœ? QueenCutie working!')
         );
     });
     
@@ -207,14 +207,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 
                 if ((command.on !== undefined && (command.on === 'image' || command.on === 'photo')
                     && msg.message && msg.message.imageMessage !== null && 
-                    (command.pattern === undefined || (command.pattern !== undefined && 
-                        command.pattern.test(text_msg)))) || 
+                    (command.pattern === undefined ||Â (command.pattern !== undefined && 
+                        command.pattern.test(text_msg)))) ||Â 
                     (command.pattern !== undefined && command.pattern.test(text_msg)) || 
                     (command.on !== undefined && command.on === 'text' && text_msg) ||
                     // Video
                     (command.on !== undefined && (command.on === 'video')
                     && msg.message && msg.message.videoMessage !== null && 
-                    (command.pattern === undefined || (command.pattern !== undefined && 
+                    (command.pattern === undefined ||Â (command.pattern !== undefined && 
                         command.pattern.test(text_msg))))) {
 
                     let sendMsg = false;
@@ -222,7 +222,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         
                     if ((config.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.SUDO || config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.SUDO)
-                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
+                    ) || command.fromMe === msg.key.fromMe ||Â (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
@@ -254,15 +254,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
                                 await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
-                                    '\n*WhatsAsena bir hata gerçekleşti!*'+
-                                    '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
-                                    '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
-                                    '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._\n\n' +
-                                    'Gerçekleşen Hata: ' + error + '\n\n'
+                                    '\n*WhatsAsena bir hata gerÃ§ekleÅŸti!*'+
+                                    '\n_Bu hata logunda numaranÄ±z veya karÅŸÄ± bir tarafÄ±n numarasÄ± olabilir. LÃ¼tfen buna dikkat edin!_' +
+                                    '\n_YardÄ±m iÃ§in Telegram grubumuza yazabilirsiniz._' +
+                                    '\n_Bu mesaj sizin numaranÄ±za (kaydedilen mesajlar) gitmiÅŸ olmalÄ±dÄ±r._\n\n' +
+                                    'GerÃ§ekleÅŸen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋�? ~______~*' +
-                                    '\n*🚫 ' + error + '*\n```Report errors\njoin https://chat.whatsapp.com/FVOdpPLaMvP24rIfTzCGof\n⚠️Warning bot not allowed in the group```'
+                                await conn.sendMessage(conn.user.jid, '*~_________~ ð‹ðˆð™ð€ ðŒð–ðŽð‹à¿? ~______~*' +
+                                    '\n*ðŸš« ' + error + '*\n```Report errors\njoin https://chat.whatsapp.com/FVOdpPLaMvP24rIfTzCGof\nâš ï¸Warning bot not allowed in the group```'
                                     , MessageType.text);
                             }
                         }
@@ -276,7 +276,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         await conn.connect();
     } catch {
         if (!nodb) {
-            console.log(chalk.red.bold('Eski sürüm stringiniz yenileniyor...'))
+            console.log(chalk.red.bold('Eski sÃ¼rÃ¼m stringiniz yenileniyor...'))
             conn.loadAuthInfo(Session.deCrypt(config.SESSION)); 
             try {
                 await conn.connect();
