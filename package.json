@@ -1,6 +1,6 @@
 {
   "name": "Queen-Cutie",
-  "version": "7.3.6",
+  "version": "1.0.0",
   "description": "Queen Cutie is the Modified Version of WhatsAsena, Made By @ThesanduThewsara with Baileys.",
   "main": "./Queen-Cutie/bot.js",
   "scripts": {
