@@ -4,8 +4,8 @@
     "logo": "https://i.ibb.co/fkxKnS2/NL.jpg",
     "keywords": ["whatsapp", "userbot", "Queen-Cutie", "WhatsAsena", "mwol", "bot", "ai"],
     "repository": "https://github.com/Ttmodz/Queen-Cutie",
-    "website":   "https://github.com/Ttmodz/Julie-Mwol",
-    "success_url": "https://github.com/Ttmodz/Julie-Mwol",
+    "website":   "https://github.com/Ttmodz/Queen-Cutie",
+    "success_url": "https://github.com/Ttmodz/Queen-Cutie",
     "stack": "container",
     "env": {
         "QUEENCUTIE_CODE": {
