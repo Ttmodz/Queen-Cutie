@@ -1,4 +1,4 @@
-# Contributing to Thiccy
+# Contributing to Farhan-dqz
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
@@ -12,7 +12,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. Update the README.md with details of changes to the interface, this includes new environment 
    variables, exposed ports, useful file locations and container parameters.
 3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [ReadMe](https://github.com/phaticusthiccy/WhatsAsenaDuplicated/blob/master/README.md).
+   Pull Request would represent. The versioning scheme we use is [ReadMe](https://github.com/farhan-dqz/Julie-Mwol/blob/master/README.md).
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
 
@@ -73,7 +73,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+reported by contacting the project team at AsenaDev. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -84,30 +84,9 @@ faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
 
-[Home Page](https://github.com/phaticusthiccy/WhatsAsenaDuplicated)
-
-[Thiccy's Blog](https://phaticusthiccy.jimdofree.com)
-
 ### Warning ⚠️
 
 This project is open source. So you are responsible for the changes you make.
 It is your responsibility to use these codes. We are not responsible for any bad things you make.
 
 ##
-
-##### Sharing WhatsAsena on Social Medias
-
-> Users Allowed 
-
-```json
-{
-  "user_github": "https://github.com/dogubk",
-  "user_workmail": "doguhanonder34@gmail.com",
-  "user_publicmail": "dohuhanz@gmail.com"
-  },
-  "user_permissions" {
-    "allow": ["share, usage, support"],
-    "unallow": ["write, commit"]
-    {
-}
-```
