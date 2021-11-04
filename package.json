@@ -2,13 +2,13 @@
   "name": "JulieMwol",
   "version": "7.3.6",
   "description": "Julie Mwol is the Modified Version of WhatsAsena, Made By @farhan-dqz with Baileys.",
-  "main": "./Julie-Mwol/bot.js",
+  "main": "./Queen-Cutie/Cutie.js",
   "scripts": {
-    "start": "supervisor -s bot.js"
+    "start": "supervisor -s Cutie.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farhan-dqz/Julie-Mwol.git"
+    "url": "git+https://github.com/Ttmodz/Queen-Cutie.git"
   },
   "keywords": [
     "whatsapp",
@@ -21,7 +21,7 @@
   "developer": "@TOXIC-DEVIL / @farhan-dqz",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/farhan-dqz/Julie-Mwol/issues"
+    "url": "https://github.com/Ttmodz/Queen-Cutie/issues"
   },
   "homepage": "https://github.com/farhan-dqz/Julie-Mwol#readme",
   "dependencies": {
