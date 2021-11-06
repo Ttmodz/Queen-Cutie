@@ -1,5 +1,0 @@
-build:
-  docker:
-      worker: /Queen-Cutie/Dockerfile
-run:
-   worker: npm start
